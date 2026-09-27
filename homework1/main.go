@@ -1,3 +1,5 @@
+// Homework 1: Two Sum solution
+
 package main
 
 import "fmt"
@@ -14,5 +16,6 @@ func twoSum(nums []int, target int) []int {
 }
 
 func main() {
-	fmt.Println(twoSum([]int{2, 7, 11, 15}, 9))
+	fmt.Println(twoSum([]int{-10, 7, 7, 15}, -3))
+
 }
